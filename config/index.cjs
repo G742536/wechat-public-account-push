@@ -7,7 +7,7 @@
  */
 const USER_CONFIG = {
 
-  USE_PASSAGE: 'server-chan',
+  USE_PASSAGE: 'push-plus',
   // 使用微信测试号：公众号APP_ID
   APP_ID: '',
 
@@ -22,7 +22,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'SCT180354TofXpQ5D6vtfkLFOlhg7jiQcs',
+      id: '10a12be6ea6a41338464b1ed8ce639d3',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -56,7 +56,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'SCT180347TXL4f99hXwqSaVtM2ucTY3gkx',
+      id: '11a5eaf849994380809a2782dfe94d99',
     }
   ],
 
