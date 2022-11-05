@@ -38,6 +38,12 @@ const TEMPLATE_CONFIG = [
       
       ---
       
+      今天是我们恋爱的第{{love_day.DATA}}天
+      
+      {{birthday_message.DATA}}
+       
+      ---
+      
       共推送 {{need_post_num.DATA}} 人
       
       成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
