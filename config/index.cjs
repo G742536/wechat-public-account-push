@@ -14,6 +14,13 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
 
+  // 功能开关,打开：true，关闭：false
+  SWITCH: {
+    /** 学生课表 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    courseSchedule: true,
+  },
+  
   PROVINCE: '河南',
   CITY: '郑州',
 
@@ -85,7 +92,7 @@ const USER_CONFIG = {
             ]
           ]
           // 双周课表
-          even: [
+         even: [
             // 周一
             [
               '08:00-09:50 电工电子技术2(A303)',
@@ -135,9 +142,6 @@ const USER_CONFIG = {
       id: '11a5eaf849994380809a2782dfe94d99',
     }
   ],
-/** 学生课表 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    courseSchedule: true,
       
 }
 
