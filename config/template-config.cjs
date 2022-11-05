@@ -6,7 +6,6 @@ const TEMPLATE_CONFIG = [
     desc: `
       **{{date.DATA}}**
       
-      今日课程：{{course_schedule.DATA}}
       ---
       
       城市：{{city.DATA}}
@@ -38,7 +37,7 @@ const TEMPLATE_CONFIG = [
       服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
       
       ---
-      课程提醒：{{course_schedule.DATA}}
+      
       共推送 {{need_post_num.DATA}} 人
       
       成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
