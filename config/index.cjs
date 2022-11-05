@@ -40,7 +40,13 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2021-05-01' },
       ],
     },
+     {
+      name: '我',
+      id: '11a5eaf849994380809a2782dfe94d99',
+      useTemplateId: '0003',
+}
   ],
+ 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: '0002',
 
