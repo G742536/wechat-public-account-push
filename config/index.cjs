@@ -35,8 +35,12 @@ const USER_CONFIG = {
           type: '节日', name: '恋爱纪念日', year: '2021', date: '05-01',
         },
       ],
-
-
+ customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2021-05-01' },
+      ],
+    },
+  ],
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: '0002',
 
@@ -50,4 +54,4 @@ const USER_CONFIG = {
       
 }
 
-
+module.exports = USER_CONFIG
