@@ -47,6 +47,19 @@ const TEMPLATE_CONFIG = [
       失败用户: {{fail_post_ids.DATA}}
     `
   },
+  {
+    id: '0003',
+    title: '重要日子',
+    desc: `
+      **{{date.DATA}}**
+      
+      ---
+      
+      今天是我们恋爱的第{{love_day.DATA}}天
+      
+      {{birthday_message.DATA}}
+    `
+  },
 ]
 
 module.exports = TEMPLATE_CONFIG
