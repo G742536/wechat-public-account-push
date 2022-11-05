@@ -46,15 +46,6 @@ const TEMPLATE_CONFIG = [
       
       失败用户: {{fail_post_ids.DATA}}
     `
-    desc: `
-      **{{date.DATA}}**
-      
-      ---
-      
-      今天是我们恋爱的第{{love_day.DATA}}天
-      
-      {{birthday_message.DATA}}
-   ` 
   },
 ]
 
