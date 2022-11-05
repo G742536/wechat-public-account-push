@@ -40,11 +40,28 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2021-05-01' },
       ],
     },
-     {
+    {
       name: '我',
       id: '11a5eaf849994380809a2782dfe94d99',
       useTemplateId: '0003',
-}
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '宝宝', year: '2003', date: '03-22',
+        },
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '阳阳', year: '2002', date: '09-20',
+        },
+        {
+          type: '节日', name: '恋爱纪念日', year: '2021', date: '05-01',
+        },
+      ],
+ customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2021-05-01' },
+      ],
+    },
   ],
  
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
