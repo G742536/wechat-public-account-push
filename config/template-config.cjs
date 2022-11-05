@@ -35,12 +35,6 @@ const TEMPLATE_CONFIG = [
     title: '推送完成提醒',
     desc: `
       服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
-      
-      ---
-      
-      今天是我们恋爱的第{{love_day.DATA}}天
-      
-      {{birthday_message.DATA}}
        
       ---
       
@@ -52,6 +46,15 @@ const TEMPLATE_CONFIG = [
       
       失败用户: {{fail_post_ids.DATA}}
     `
+    desc: `
+      **{{date.DATA}}**
+      
+      ---
+      
+      今天是我们恋爱的第{{love_day.DATA}}天
+      
+      {{birthday_message.DATA}}
+   ` 
   },
 ]
 
